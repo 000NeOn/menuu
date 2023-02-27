@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: #EEEEEE;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding:20px 30px;
+  position: fixed;
+}
+
+.Logo {
+  color: #393E46;
+  font-weight: 900;
+  font-size: 1.8em;
+  transition: 0.7s ease;
+  cursor: pointer;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.Logo:hover {
+  color: #00ADB5;
+}
+
+.navi {
+  text-decoration: none;
+  padding-left: 30px;
+  color: #393E46;
+  padding-right: 20px;
+  padding-top: 10px;
+  transition: 0.7s ease-in-out;
+}
+
+.navi:hover {
+  color: #00ADB5;
+}
+
+.heading{
+  justify-content: center;
+  text-align: center;
+  padding:300px;
+  width: 100%;
+  font-size: 4em;
+  color: #EEEEEE;
+  background: url(https://wallpaperaccess.com/full/3353888.jpg);
+}
+
+.word{
+  font-family: 'Pacifico', cursive;
+  transition: 0.7s ease-in-out;
+  cursor: default;
+}
+
+.word:hover{
+  color: #00ADB5;
+}
+
+.par{
+  font-size: 0.5em;
+  font-weight: 900;
+}
+
+.title{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  font-size: 2em;
+  color: #00ADB5;
+  font-weight: 900;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #fff;
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.icon {
+  color: #3a6cf4;
+  font-size: 8em;
+  text-align: center;
+}
+
+
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+
+.projects{
+  background-color: #EEEEEE;
+}
+
+.projects.content{
+margin-top: 30px;
+}
+
+.proCard{
+  background-color: #fff;
+  border: 1px solid #fff;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.proCard:hover{
+  transform: scale(1.1);
+}
+.proCard:hover .proImg{
+  opacity: 0.9;
+}
+
+.proImg img{
+  width: 100%;
+}
+
+.proInfo{
+  padding: 1em;
+}
+.proCat{
+  font-size: 0.8em;
+  color: black;
+}
+
+.proTitle{
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+}
+
+.moreDetails{
+  text-decoration: none;
+  color: #3a6cf4;
+}
+
+.moreDetails:hover{
+  color: #2B3467;
+}
+
+.content .icon{
+  font-size: 4.5em;
+}
+
+.content .info h3{
+  color: black;
+}
+
+.gg{
+  font-size: 1.2em;
+}
