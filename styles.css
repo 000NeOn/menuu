@@ -49,7 +49,8 @@ header {
   width: 100%;
   font-size: 4em;
   color: #EEEEEE;
-  background: url(https://wallpaperaccess.com/full/3353888.jpg);
+  background: url(https://media.istockphoto.com/id/1047533606/photo/empty-brown-plank-wood-shelf-at-black-layer-marble-tile-wall-background-mock-up-for-display.jpg?b=1&s=170667a&w=0&k=20&c=svcOWPmb4Cc09LNfF7e5FtJzob2jRd8M4y6A9zVUqdI=);
+  background-size: contain;
 }
 
 .word{
